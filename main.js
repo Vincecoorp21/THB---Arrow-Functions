@@ -39,7 +39,7 @@ const test2 = () => console.log('Función test 2 ejecutada.');
 
 const test1 = (callback) => callback();
 
-console.log(test1(test2));
+test1(test2);
 
 /********EJERS JAVASCRIPT FOREACH*********/
 // Utiliza la siguiente array para resolver los próximos ejercicios:
@@ -141,6 +141,16 @@ const arrayComida2 = foodList2.map((location) => {
 });
 
 console.log(arrayComida2);
+
+//Hacer el ejercicio usando el índice de map
+// let frase =[]
+
+// //foodList.map(food, i) => {
+//   if (i === [0]){
+//     frase.push(`Como soy de Italia me gusta la ${})
+
+//   }
+// }
 
 // const arrayComida = foodList.map((plato) => {
 //   const comidayPais = {
